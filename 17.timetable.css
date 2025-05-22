@@ -1,0 +1,55 @@
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lime {
+    background-color: #d0f0c0;
+}
+
+.orange {
+    background-color: #ffd280;
+}
+
+.lunch a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.lunch {
+    background-color: aquamarine;
+}
+
+.highlight {
+    background-color: yellow !important;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search-input {
+    padding: 8px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.chocolate {
+    background-color: greenyellow
+}
+
