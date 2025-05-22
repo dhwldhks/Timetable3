@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>나만의 시간표</title>
+    <link rel="stylesheet" href="17.timetable.css">
+</head>
+<body>
+    <script src="17_script.js"></script>
+<div class="search-container">
+    <input type="text" id="searchInput" class="search-input" placeholder="이름 또는 과목 입력">
+    <button onclick="highlightCells()" class="search-button">검색</button>
+</div>
+
+<table>
+    <caption>2학년 11반 시간표</caption>
+    <thead>
+        <tr>
+            <th class="lime">교시</th>
+            <td class="orange">월요일</td>
+            <td class="orange">화요일</td>
+            <td class="orange">수요일</td>
+            <td class="orange">목요일</td>
+            <td class="orange">금요일</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th class="chocolate">1교시 <br>(09:00)</th>
+            <td>시스프 <br>김형준</td>
+            <td>문학 <br>한수현</td>
+            <td>영Ⅰ <br>이승은</td>
+            <td>시스프 <br>김형준</td>
+            <td>한국 <br>유시현</td>
+        </tr>
+        <tr>
+            <th class="chocolate">2교시 <br>(10:00)</th>
+            <td>영Ⅰ <br>이승은</td>
+            <td>응프개 <br>김형준</td>
+            <td>문학 <br>한수현</td>
+            <td>시스프 <br>김형준</td>
+            <td>응프개 <br>김형준</td>
+        </tr>
+        <tr>
+            <th class="chocolate">3교시 <br>(11:00)</th>
+            <td>응프개 <br>김형준</td>
+            <td>체탐 <br>장현석</td>
+            <td>응프개 <br>김형준</td>
+            <td>영Ⅰ <br>이승은</td>
+            <td>시스프 <br>김형준</td>
+        </tr>
+        <tr>
+            <th class="chocolate">4교시 <br>(12:00)</th>
+            <td>응프개 <br>김형준</td>
+            <td>한국 <br>유시현</td>
+            <td>시스프 <br>김형준</td>
+            <td>문학 <br>한수현</td>
+            <td>시스프 <br>김형준</td>
+        </tr>
+        <tr>
+            <th class="lunch" colspan="6">
+                <a href="https://sungili-h.goesn.kr/sungili-h/ad/fm/foodmenu/selectFoodMenuView.do" target="_blank">
+                    점심시간 (12:50 - 13:50)
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <th class="chocolate">5교시 <br>(13:50)</th>
+            <td>자료 <br>최승남</td>
+            <td>시스프 <br>김형준</td>
+            <td>미술 <br>박성희<br>미술실</td>
+            <td>시스프 <br>김형준</td>
+            <td>창체</td>
+        </tr>
+        <tr>
+            <th class="chocolate">6교시 <br>(14:50)</th>
+            <td>자료 <br>최승남</td>
+            <td>미술<br>박성희<br>미술실</td>
+            <td>자율</td>
+            <td>한국 <br>유시현</td>
+            <td>창체</td>
+        </tr>
+        <tr>
+            <th class="chocolate">7교시 <br>(15:50)</th>
+            <td>응프개 <br>김형준</td>
+            <td></td>
+            <td></td>
+            <td>응프개 <br>김형준</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
